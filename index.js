@@ -33,7 +33,7 @@ function integerToRoman(n) {
             { currentIntegerValue: 4, currentRomanValue: 'IV' },
             { currentIntegerValue: 1, currentRomanValue: 'I' }
         ];        
-    // Computation of Roman Numeral    let romanNumeral = ''    let index = 0;
+    // Computation of Roman Numeral    
     while (n) {
         console.log(dictionary[index])
         let { currentIntegerValue, currentRomanValue } = dictionary[index];
